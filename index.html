@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do App</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body id="darkMode">
+    <div class="heading">
+    <h1>To-Do App</h1>
+    <p id="date"></p>
+    </div>
+    <div class="container">
+        <div id="division" >
+           <div id="taskTime">
+            <input size="8" type="text" list="times" name="hours" id="hours" min="1" max="12" required placeholder="Time from">
+            <input size="5" type="text" list="items" id="noon" placeholder="Time to">
+            <datalist id="times">
+                <option >1AM</option>
+                <option >2AM</option>
+                <option >3AM</option>
+                <option >4AM</option>
+                <option >5AM</option>
+                <option >6AM</option>
+                <option >7AM</option>
+                <option >8AM</option>
+                <option >9AM</option>
+                <option >10AM</option>
+                <option >11AM</option>
+                <option >12AM</option>
+                <option >1PM</option>
+                <option >2PM</option>
+                <option >3PM</option>
+                <option >4PM</option>
+                <option >5PM</option>
+                <option >6PM</option>
+                <option >7PM</option>
+                <option >8PM</option>
+                <option >9PM</option>
+                <option >10PM</option>
+                <option >11PM</option>
+                <option >12PM</option>
+            </datalist>
+            
+            
+            
+            
+            
+            <datalist id="items">
+                <option >1AM</option>
+                <option >2AM</option>
+                <option >3AM</option>
+                <option >4AM</option>
+                <option >5AM</option>
+                <option >6AM</option>
+                <option >7AM</option>
+                <option >8AM</option>
+                <option >9AM</option>
+                <option >10AM</option>
+                <option >11AM</option>
+                <option >12AM</option>
+                <option >1PM</option>
+                <option >2PM</option>
+                <option >3PM</option>
+                <option >4PM</option>
+                <option >5PM</option>
+                <option >6PM</option>
+                <option >7PM</option>
+                <option >8PM</option>
+                <option >9PM</option>
+                <option >10PM</option>
+                <option >11PM</option>
+                <option >12PM</option>
+            </datalist>
+
+        </div>
+           <input type="text" name="name" id="name" placeholder="Enter the Task" />
+          <button id="btn">Add</button>
+          <button id="delete">Delete</button>
+          
+        </div>
+        <div id="createTime"></div>
+           <div id="taskContainer"></div>
+           
+     </div>
+
+     <input type="text" name="" id="text" onclick="butt()">
+    <script src="./main.js"></script>
+</body>
+</html>
